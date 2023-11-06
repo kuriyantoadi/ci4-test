@@ -1,7 +1,5 @@
 # ci4-test
 
-
-
 ## Konfigurasi Codeiginter 4 tanpa /Public
 
 - Pindahkan `public/index.php` dan `public/.htaccess` ke `/index.php` dan `/.htaccess1`
@@ -16,11 +14,11 @@
 <br>`public string $uriProtocol = 'REQUEST_URI';`
 - Tambahkan .htaccess bagian akhir
 <br>
-```
+``
 DirectoryIndex index.php
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^ index.php [L]
 RewriteRule !^(public/|index\.php) [NC,F]
-```
+``
