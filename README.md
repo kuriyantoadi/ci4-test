@@ -12,7 +12,6 @@
 <br>menjadi
 <br>`public string $uriProtocol = 'REQUEST_URI';`
 - Tambahkan .htaccess bagian akhir
-<br>
 <code>
 DirectoryIndex index.php
 RewriteEngine On
