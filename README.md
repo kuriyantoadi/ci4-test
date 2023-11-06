@@ -13,11 +13,11 @@
 <br>`public string $uriProtocol = 'REQUEST_URI';`
 - Tambahkan .htaccess bagian akhir
 <br>
-``
+<code>
 DirectoryIndex index.php
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^ index.php [L]
 RewriteRule !^(public/|index\.php) [NC,F]
-``
+</code>
