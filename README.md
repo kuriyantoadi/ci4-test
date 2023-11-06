@@ -1,7 +1,9 @@
 # ci4-test
 
-## Konfigurasi Codeiginter 4 tanpa /Public
 
+
+
+## Konfigurasi Codeiginter 4 tanpa /Public
 - Pindahkan `public/index.php` dan `public/.htaccess` ke `/index.php` dan `/.htaccess1`
 - Edit pada index.php
 <br>`require FCPATH . '../app/Config/Paths.php';` 
@@ -19,4 +21,9 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^ index.php [L]
 RewriteRule !^(public/|index\.php) [NC,F]
+</code>
+
+Sumber :
+<code>
+https://jenusdy.medium.com/menghilangkan-public-dan-index-php-pada-codeigniter-4-c40fca863709
 </code>
