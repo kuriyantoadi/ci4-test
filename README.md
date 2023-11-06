@@ -1,7 +1,18 @@
 # ci4-test
 
+## Install Codeiginter 4
+- Download manual dari web resmi Codeiginter
+- copy dan extrak di htdocs atau public_html
+- Masukan perintah berikut untuk install Codeiginter 4
+<br>`composer install -vvv`
+- Ubah `env` menjadi `.env`
+- Ubah isi .env 
+<br> `CI_ENVIRONMENT = production`
+<br>menjadi
+<br>`CI_ENVIRONMENT = development`
 
-
+sumber :
+<br>https://www.petanikode.com/codeigniter4-install/
 
 ## Konfigurasi Codeiginter 4 tanpa /Public
 - Pindahkan `public/index.php` dan `public/.htaccess` ke `/index.php` dan `/.htaccess1`
