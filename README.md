@@ -7,7 +7,6 @@
 <br>`require FCPATH . '../app/Config/Paths.php';` 
 <br>menjadi
 <br>`require FCPATH . 'app/Config/Paths.php';` 
-<br>
 - Edit app/Config/App.php
 <br> `public string $uriProtocol = 'PATH_INFO';`
 <br>menjadi
