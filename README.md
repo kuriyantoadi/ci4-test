@@ -15,7 +15,7 @@ sumber :
 <br>https://www.petanikode.com/codeigniter4-install/
 
 ## Konfigurasi Codeiginter 4 tanpa /Public
-- Pindahkan `public/index.php` dan `public/.htaccess` ke `/index.php` dan `/.htaccess1`
+- Pindahkan `public/index.php` dan `public/.htaccess` ke `/index.php` dan `/.htaccess`
 - Edit pada index.php
 <br>`require FCPATH . '../app/Config/Paths.php';` 
 <br>menjadi
